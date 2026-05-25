@@ -1,0 +1,69 @@
+{
+  "total_rows_in": 4,
+  "total_rows_out": 4,
+  "columns": 10,
+  "column_names": [
+    "Name:",
+    "John",
+    "",
+    "",
+    "Age:",
+    "",
+    "23",
+    "",
+    "City:",
+    "Bangkok"
+  ],
+  "whitespace_stripped": 0,
+  "nulls_replaced": 7,
+  "duplicates_removed": 0,
+  "outliers_flagged": 0,
+  "outliers_removed": 0,
+  "column_profiles": {
+    "Name:": {
+      "type": "string",
+      "null_count": 1,
+      "null_pct": 25.0,
+      "unique_count": 3
+    },
+    "John": {
+      "type": "string",
+      "null_count": 2,
+      "null_pct": 50.0,
+      "unique_count": 2
+    },
+    "": {
+      "type": "string",
+      "null_count": 4,
+      "null_pct": 100.0,
+      "unique_count": 0
+    },
+    "Age:": {
+      "type": "string",
+      "null_count": 3,
+      "null_pct": 75.0,
+      "unique_count": 1
+    },
+    "23": {
+      "type": "string",
+      "null_count": 4,
+      "null_pct": 100.0,
+      "unique_count": 0
+    },
+    "City:": {
+      "type": "string",
+      "null_count": 4,
+      "null_pct": 100.0,
+      "unique_count": 0
+    },
+    "Bangkok": {
+      "type": "string",
+      "null_count": 3,
+      "null_pct": 75.0,
+      "unique_count": 1
+    }
+  },
+  "elapsed": 0.001,
+  "src": "C:\\Users\\hkawn\\OneDrive\\Desktop\\text.csv\\text-csv\\output\\mess.csv",
+  "dst": "C:\\Users\\hkawn\\OneDrive\\Desktop\\text.csv\\text-csv\\output\\mess_clean.csv"
+}

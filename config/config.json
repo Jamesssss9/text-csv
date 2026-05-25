@@ -37,5 +37,18 @@
     "recursive": true,
     "min_size_bytes": 0,
     "max_size_bytes": null
+  },
+
+  "cleaning": {
+    "strip_whitespace": true,
+    "normalize_case": null,
+    "null_values": ["", "null", "none", "n/a", "na", "-", "nan", "nil",
+                    "NULL", "N/A", "None", "NaN", "NA", "missing"],
+    "null_replacement": "",
+    "remove_duplicates": true,
+    "outlier_detection": true,
+    "outlier_iqr_multiplier": 1.5,
+    "outlier_action": "flag",
+    "report": true
   }
 }
